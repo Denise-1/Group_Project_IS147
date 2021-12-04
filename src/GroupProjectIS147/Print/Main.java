@@ -13,6 +13,9 @@ public class Main {
         DisplayMonths monthsInput = new DisplayMonths();    // displays months for user
         monthsInput.monthsOptions();
 
+        StartEndMonth askMonths = new StartEndMonth ();
+        askMonths.enterMonths();
+
 
     }
 }

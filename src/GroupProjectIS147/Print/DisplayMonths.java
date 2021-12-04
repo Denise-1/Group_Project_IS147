@@ -1,11 +1,11 @@
 package GroupProjectIS147.Print;
 
-public class DisplayMonths { // for entering user start and end date
+public class DisplayMonths { // displays options for user StartEndMonths
 
     public void monthsOptions (){
         System.out.println("\t\t\t==================================");
         System.out.println("\t\t\tJanuary - Enter 1" );
-        System.out.println("\t\t\tFeburary - Enter 2");
+        System.out.println("\t\t\tFebruary - Enter 2");
         System.out.println("\t\t\tMarch - Enter 3");
         System.out.println("\t\t\tApril - Enter 4");
         System.out.println("\t\t\tMay - Enter 5");
