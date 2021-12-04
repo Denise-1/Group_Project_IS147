@@ -2,7 +2,7 @@ package GroupProjectIS147.Print;
 
 import java.util.Scanner;
 
-public class StartEndMonth {
+public class StartMonth {
 
     public static void enterMonths() {
 
@@ -49,14 +49,9 @@ public class StartEndMonth {
                 System.out.println("This is not a valid month entry");
         }
 
-
 //        System.out.println("Enter the end month of your medication(s): ");
 //        int end = monthsInput.nextInt();
         // put swtich statment here
-
-
-
-
 
     } // enterMonths() END
 
