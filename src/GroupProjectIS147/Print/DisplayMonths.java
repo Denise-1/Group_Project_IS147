@@ -17,8 +17,5 @@ public class DisplayMonths { // displays options for user StartEndMonths
         System.out.println("\t\t\tNovember - Enter 11");
         System.out.println("\t\t\tDecember - Enter 12");
         System.out.println("\t\t\t==================================");
-
     }
-
-
 }
