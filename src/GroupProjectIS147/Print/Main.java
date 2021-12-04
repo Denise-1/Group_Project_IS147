@@ -10,5 +10,9 @@ public class Main {
         ChartPillAmount input = new  ChartPillAmount();     // user pill amount
         input.getPillAmount();
 
+        DisplayMonths monthsInput = new DisplayMonths();    // displays months for user
+        monthsInput.monthsOptions();
+
+
     }
 }
