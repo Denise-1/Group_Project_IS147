@@ -52,19 +52,20 @@ public class StartEndMonth {
 
 //        System.out.println("Enter the end month of your medication(s): ");
 //        int end = monthsInput.nextInt();
-
-
-
-        // put if statement here for months
-
-    }
-
-}
+        // put swtich statment here
 
 
 
 
 
+    } // enterMonths() END
+
+} // StartEndMonth Class END
+
+
+
+
+// -----------------------------------------------------------
     //    public StartEndMonth(int start, int end) {
 //        // if statement here for months
 //
