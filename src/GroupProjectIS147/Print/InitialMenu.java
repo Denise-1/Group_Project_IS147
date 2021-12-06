@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InitialMenu {
 
-        public static void initialMenu() {
+        /*public static void initialMenu() {
         Scanner input = new Scanner(System.in);
         int option = 0;
 
@@ -16,15 +16,11 @@ public class InitialMenu {
                 switch (option) {
 
                     case 1: {
-                        //create class for login
+                        Login login = new Login();
                         break;
                     }
                     case 2: {
-                        //create class for registration
-                        break;
-                    }
-                    case 3: {
-                        System.out.println("\t\t\tApplication Closed");
+                        System.out.println("Application Closed. Goodbye.");
                         break;
                     }
                     default: {
@@ -39,16 +35,15 @@ public class InitialMenu {
 
             }
 
-        }while (option != 3) ;
+        }while (option != 2)
 
-        }
+        } */
         public static void instructions(){
-            System.out.println("\t\t\t==================================");
-            System.out.println("\t\t\tPill Management System");
-            System.out.println("\t\t\tEnter 1 to Sign In");
-            System.out.println("\t\t\tEnter 2 to Register for Sign In");
-            System.out.println("\t\t\tEnter 3 to Close Application");
-            System.out.println("\t\t\t==================================");
+            System.out.println("==================================");
+            System.out.println("Pill Management System");
+            System.out.println("Enter 1 to Sign In");
+            System.out.println("Enter 2 to Close Application");
+            System.out.println("==================================");
         }
 
 }
