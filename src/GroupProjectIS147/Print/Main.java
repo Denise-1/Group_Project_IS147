@@ -38,7 +38,12 @@ public class Main {
             }
 
         }while (option != 2) ;
-        
+
+
+
+        DisplayOptions options = new DisplayOptions();      // display options for user
+        options.userOptions();
+
         /*ChartPillAmount inputPill = new  ChartPillAmount();     // user pill amount
         inputPill.getPillAmount();
 

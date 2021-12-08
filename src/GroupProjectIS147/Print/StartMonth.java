@@ -7,8 +7,11 @@ public class StartMonth {
     public static void enterMonths() {
 
         Scanner monthsInput = new Scanner(System.in);       // inherit swtich statements to the end months?
+
         System.out.println("Enter the start month you took your medication(s): ");
         int start = monthsInput.nextInt();
+
+
         switch (start){         // use loop here somehow to loop number of medications user has?
             // add loop somewhere
             case 1:
