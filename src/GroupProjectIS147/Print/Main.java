@@ -44,6 +44,9 @@ public class Main {
         DisplayOptions options = new DisplayOptions();      // display options for user
         options.userOptions();
 
+        Input askUser = new Input();
+        askUser.userInput();
+
         /*ChartPillAmount inputPill = new  ChartPillAmount();     // user pill amount
         inputPill.getPillAmount();
 

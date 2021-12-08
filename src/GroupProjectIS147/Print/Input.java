@@ -11,9 +11,11 @@ public class Input {
 
         switch (userInput){
             case 1:
-                // call object for pill amount class here
+                PillAmount getAmount = new PillAmount(2);
+                System.out.println("You are talking: " + getAmount.getShowAmount(2) + " pills");
+                break;
             case 2:
-                //
+                //description
 
 
 
