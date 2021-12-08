@@ -13,7 +13,7 @@ public class DisplayOptions {
         System.out.println("\t\t\tDays of the week needed to take pills - Enter 5");
         System.out.println("\t\t\tCheck to see if you took you medication today - Enter 6");
         System.out.println("\t\t\tDoctor Information - Enter 7");   //name of doc, contact, etc
-        System.out.println("\t\t\tExit - Enter 8");
+        System.out.println("\t\t\tExit - Enter 0");
         System.out.println();
         System.out.println("\t\t\t==============================================================");
         // put these in their own class and call them in a swtich
