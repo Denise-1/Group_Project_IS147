@@ -32,7 +32,7 @@ public class Input {
                     Description2 printDescription2 = new Description2();
 
                     System.out.println("Your first pill name is: " + printNames.getMyPill1());
-                    printDescription1.descriptionPill1();
+                    printDescription1.DESCRIPTIONPILL1();
                     System.out.println();
                     System.out.println("Your second pill name is: " + printNames.getMyPill2());
                     printDescription2.descriptionPill2();
@@ -76,8 +76,7 @@ public class Input {
             } // switch
         } while (0 != user);
 
-//        PillName1 pill1 = new PillName1();
-//        pill1.name1();
+
 
 
     }
