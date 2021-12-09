@@ -22,10 +22,10 @@ public class Input {
                     System.out.println("You are talking: " + getAmount.getShowAmount(2) + " pills");
                     break;
                 case 2:
-//                    StartDate printDate = new StartDate();      //
-//                    int var = printDate.StartDateInt(3,1);
-//                    System.out.println("You started you medication on: " + var);    // this loops
-                    break;
+                   StartDate printDate = new StartDate(3,1);      //no need to call this bc method is static
+                   System.out.println("You started your medication on: " + "March " + printDate.getStart() + " 2021");
+                   System.out.println("You ended your medication on: " + "December " + printDate.getEndPass() + " 2021");// this loops
+                   break;
                 case 3:     //medication description
                     pillNames printNames = new pillNames("Metformin", "Melatonin");
                     Description1 printDescription1 = new Description1();
