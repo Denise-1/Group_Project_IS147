@@ -25,6 +25,8 @@ public class Input {
                     int var = printDate.StartDateInt(3,1);
                     System.out.println("You started you medication on: " + var);    // this loops
                     break;
+
+
                 default:
                     System.out.println("Invalid option. Try again.");
                     break;

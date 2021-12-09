@@ -3,6 +3,9 @@ package GroupProjectIS147.Print;
 public class PillAmount {
     private int showAmount;
 
+    public PillAmount (){
+    }
+
     public PillAmount(int showAmountHere) {
         this.showAmount = showAmountHere;
     }
