@@ -9,6 +9,7 @@ public class Input {
         int user = 0;
 
         do {
+            System.out.println();
             System.out.println("What would you like to view: ");
             user = askUser.nextInt();
 
@@ -38,7 +39,8 @@ public class Input {
                     break;
                 case 4:     //refill number
                     Refill_Number refill = new Refill_Number();
-                    System.out.println("You have a number of: " + refill.refillInt(2) + " refills");
+                    System.out.println("You have a number of: " + refill.refillInt(2) + " refills for each" +
+                            "of your pills");
                     break;
                 case 5:     //how many pills should be taken
                     Pill_Intake intake = new Pill_Intake(2,1);
@@ -61,7 +63,7 @@ public class Input {
                     System.out.println(printNames4.getMyPill1() + "'s" + " side effects include:");
                     showSideEffects.pillEffect1();
 
-                    System.out.println("\n" + printNames4.getMyPill1()+ "'s" + " side effects include:");
+                    System.out.println("\n" + printNames4.getMyPill2()+ "'s" + " side effects include:");
                     showSideEffects.pillEffect2();
                     break;
                 case 8:
