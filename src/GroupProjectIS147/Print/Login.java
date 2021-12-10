@@ -14,6 +14,11 @@ public class Login {
 
         if("user147".equals(userName) && "Fall2021".equals(password)){
             System.out.println("Login Successful");
+            DisplayOptions options = new DisplayOptions();      // display options for user
+            options.userOptions();
+
+            Input askUser = new Input();
+            askUser.userInput();
         }else {
             System.out.println("Invalid Password. Please Try Again.");
         }

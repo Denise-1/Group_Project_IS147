@@ -39,11 +39,11 @@ public class Main {
 
         }while (option != 2) ;
 
-        DisplayOptions options = new DisplayOptions();      // display options for user
+        /*DisplayOptions options = new DisplayOptions();      // display options for user
         options.userOptions();
 
         Input askUser = new Input();
-        askUser.userInput();
+        askUser.userInput();*/
 
         /*ChartPillAmount inputPill = new  ChartPillAmount();     // user pill amount
         inputPill.getPillAmount();
