@@ -40,7 +40,7 @@ public class Input {
                 case 4:     //refill number
                     Refill_Number refill = new Refill_Number();
                     System.out.println("You have a number of: " + refill.refillInt(2) + " refills for each" +
-                            "of your pills");
+                            " of your pills");
                     break;
                 case 5:     //how many pills should be taken
                     Pill_Intake intake = new Pill_Intake(2,1);
@@ -55,7 +55,7 @@ public class Input {
                     System.out.println("You took " + printNames3.getMyPill1() +
                             " today at " + java.time.LocalDate.now());
                     System.out.println("You did not take " + printNames3.getMyPill2() +
-                            "today at " + java.time.LocalDate.now());
+                            " today at " + java.time.LocalDate.now());
                     break;
                 case 7:     //side effects
                     Side_Effects showSideEffects = new Side_Effects();
