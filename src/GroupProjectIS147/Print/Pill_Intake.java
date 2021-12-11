@@ -1,5 +1,12 @@
 package GroupProjectIS147.Print;
 
+/**
+ * Use getters to display how many pills per prescribed medication the user must take.
+ * @see Input case 5 in switch statement
+ *
+ * @author Denise C
+ */
+
 public class Pill_Intake {
 
     int intake1;
@@ -8,6 +15,11 @@ public class Pill_Intake {
     public  Pill_Intake(){
     }
 
+    /**
+     * Method called to display how much pills to take per prescribed medication
+     * @param medIntake1 how many pills to take for the first medication
+     * @param medIntake2 how many pills to take for the second medication
+     */
     public Pill_Intake (int medIntake1, int medIntake2){
         this.intake1 = medIntake1;
         this.intake2 = medIntake2;

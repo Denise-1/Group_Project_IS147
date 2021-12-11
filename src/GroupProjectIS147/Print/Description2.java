@@ -1,5 +1,11 @@
 package GroupProjectIS147.Print;
 
+/**
+ * Displays the the description of the second medication that the user takes
+ * @see Input case 3 in switch statement
+ *
+ * @author Denise C
+ */
 public class Description2 {
 
     public void descriptionPill2 (){        //Melatonin

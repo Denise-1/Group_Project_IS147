@@ -1,21 +1,29 @@
 package GroupProjectIS147.Print;
 
+/**
+ * Displays the start and end dates for the medications prescribed to the user
+ * @see Input case 2 in switch statement
+ *
+ * @author Denise C
+ */
+
 public class StartDate {
 
         int start = 3;
         int endPass = 1;
 
+    /**
+     * StartDate constructor that passes values to see the days in which the user starts and ends medication
+     * @param start indicates the day the user starts medication
+     * @param endPass indicates the day the user ends medication
+     */
 
-
-        public StartDate(int start, int endPass){
+    public StartDate(int start, int endPass){
 
 
             this.start = start;
             this.endPass = endPass;
             Math.max(start, endPass);
-            //System.out.println("March " + Math.max(start, endPass) + " 2021");
-
-            //Math.min() for end date       pass the same 2 values
 
         }
 

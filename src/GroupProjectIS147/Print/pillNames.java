@@ -1,12 +1,26 @@
 package GroupProjectIS147.Print;
 
+/**
+ * Displays the name of the medication the user takes
+ * @see Input case 5 in switch statement
+ *
+ * @author Denise C
+ */
+
 public class pillNames {
     String myPill1;
     String myPill2;
 
+
     public pillNames(){
 
     }
+
+    /**
+     * References the name of two pills the user will take
+     * @param myPill1
+     * @param myPill2
+     */
 
     public pillNames(String myPill1, String myPill2){
         this.myPill1 = myPill1;

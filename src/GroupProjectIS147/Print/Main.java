@@ -2,11 +2,21 @@ package GroupProjectIS147.Print;
 
 import java.util.Scanner;
 
+/**
+ * Main method includes switch statement to use login menu as stated in instructions.
+ * Takes user input to allow a user to either sign in or exit.
+ * @see InitialMenu
+ * @see Login
+ *
+ * @author Johan G
+ */
+
 public class Main {
-    
-    //    static String [] pillArray = new String[10];  (maybe global variable for chart )
+
 
     public static void main(String[] args) {
+
+
         Scanner input = new Scanner(System.in);
         int option = 0;
 
@@ -38,27 +48,6 @@ public class Main {
             }
 
         }while (option != 2) ;
-
-        /*DisplayOptions options = new DisplayOptions();      // display options for user
-        options.userOptions();
-
-        Input askUser = new Input();
-        askUser.userInput();*/
-
-        /*ChartPillAmount inputPill = new  ChartPillAmount();     // user pill amount
-        inputPill.getPillAmount();
-
-        DisplayMonths monthsInput = new DisplayMonths();    // displays months for user
-        monthsInput.monthsOptions();
-
-
-        StartMonth startMonths = new StartMonth(); // asks user to enter start month
-        startMonths.enterMonths();
-
-        EndMonth endMonths = new EndMonth();
-        endMonths.askEndMonth();
-        endMonths.enterMonths();*/      // Inherits the swtich, but how to isolate swtich from start month class ?
-
 
     }
 }

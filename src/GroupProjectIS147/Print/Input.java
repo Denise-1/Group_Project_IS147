@@ -3,6 +3,13 @@ package GroupProjectIS147.Print;
 import java.util.Scanner;
 
 public class Input {
+    /**
+     * userInput method uses switch statement to access main menu options displayed
+     * @see DisplayOptions
+     *
+     * @author Johan G and Denise C
+     */
+
     public static void userInput () {
 
         Scanner askUser = new Scanner(System.in);
@@ -13,16 +20,16 @@ public class Input {
             System.out.println("What would you like to view: ");
             user = askUser.nextInt();
 
-            switch (user) {     // want to loop this
+            switch (user) {
                 case 0:
                     System.out.println("You have exited out of the options");
                     break;
                 case 1:     //pill amount
-                    PillAmount getAmount = new PillAmount();    // calls class
-                    System.out.println("You are talking: " + getAmount.getShowAmount(2) + " pills");
+                    PillAmount getAmount = new PillAmount();
+                    System.out.println("You are taking: " + getAmount.getShowAmount(2) + " pills");
                     break;
-                case 2:
-                   StartDate printDate = new StartDate(3,1);      //no need to call this bc method is static
+                case 2: // Start date and end date of medication
+                   StartDate printDate = new StartDate(3,1);
                    System.out.println("You started your medication on: " + "March " + printDate.getStart() + " 2021");
                    System.out.println("You ended your medication on: " + "December " + printDate.getEndPass() + " 2021");// this loops
                    break;
@@ -38,8 +45,7 @@ public class Input {
                     printDescription2.descriptionPill2();
                     break;
                 case 4:     //refill number
-                    Refill_Number refill = new Refill_Number();
-                    System.out.println("You have a number of: " + refill.refillInt(2) + " refills for each" +
+                    System.out.println("You have a number of: " + Refill_Number.refillInt(2) + " refills for each" +
                             " of your pills");
                     break;
                 case 5:     //how many pills should be taken
